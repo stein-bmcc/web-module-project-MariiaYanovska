@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+/* Navigation Styling */ 
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: aliceblue;
+}
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+
+body{
+    background-color: #BFBFBF;
+    color: black;
+
+max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Playfair Display", serif;
+}
+h1{
+    color: navy;
+}
+
+img, video{
+    max-width: 50%;
+    height: auto;
+}
+
+figure{
+    /* Removes the default margins on fig
+    margin: 0;
+}
