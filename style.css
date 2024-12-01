@@ -30,8 +30,3 @@ img, video{
     max-width: 50%;
     height: auto;
 }
-
-figure{
-    /* Removes the default margins on fig
-    margin: 0;
-}
