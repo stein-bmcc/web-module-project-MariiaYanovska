@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Your Travel Tips</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Share Your Travel Tips</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mytravels.html">My Travels</a></li>
+                <li><a href="traveltips.html">Travel Tips</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>We’d love to hear from you!</h1>
+        <p>Have a great travel tip or experience to share? Fill out the form below and let us know.</p>
+
+        <!-- Form -->
+        <form action="https://example.com/submit" method="post">
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <label for="tip">Your Travel Tip:</label><br>
+            <textarea id="tip" name="tip" rows="4" placeholder="Share your best travel advice!" required></textarea><br><br>
+
+            <button type="submit" style="
+                background-color: #0066cc;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                font-size: 18px;
+                cursor: pointer;">
+                Submit Tip
+            </button>
+        </form>
+
+        <!-- Call-to-Action Button -->
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="traveltips.html" style="
+            background-color: #0066cc; 
+            color: white; 
+            padding: 10px 20px; 
+            text-decoration: none; 
+            border-radius: 5px;
+            font-size: 18px;">
+            Back to the Travel Tips
+        </a>
+    </div>
+
+    </main>
+
+    <footer class="gallery-footer">
+        <p>&copy; 2024 Mariia Yanovska. All images licensed under CC0. Photo credits to the respective photographers linked above.</p>
+    </footer>
+    
+</body>
+</html>

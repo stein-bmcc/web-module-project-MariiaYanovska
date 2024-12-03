@@ -42,6 +42,67 @@ img, video{
     height: auto;
 }
 
+.gallery figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+.explore-button {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+}
+.explore-button a {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+.explore-button a:hover {
+    background-color: #004da8;
+}
+
+figcaption {
+    color: gray; /* Makes the text gray */
+    font-size: 14px; /* Adjusts font size */
+    font-style: italic; /* Optional: Makes the text italic for better differentiation */
+    text-align: center; /* Centers the text under the image */
+    margin-top: 10px; /* Adds some spacing between the image and the text */
+}
+
+figure {
+    position: relative;
+    overflow: hidden;
+}
+
+figure img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+figure:hover img {
+    transform: scale(1.1); /* Scales the image slightly */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}
+
+figure {
+    position: relative;
+    overflow: hidden;
+}
+
+figure img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+figure:hover img {
+    transform: scale(1.1); /* Scales the image slightly */
+    opacity: 0.8; /* Makes the image slightly transparent */
+}
+
+
 footer {
     margin-top: 20px;
     font-size: 14px;
